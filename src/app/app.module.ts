@@ -23,6 +23,7 @@ import { ItemsComponent } from './components/items/items.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AddItemComponent } from './components/add-item/add-item.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { SideBarMenuItemComponent } from './components/side-bar-menu-item/side-bar-menu-item.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     NavComponent,
     AboutPageComponent,
     ItemsComponent,
-    AddItemComponent
+    AddItemComponent,
+    SideBarMenuItemComponent
   ],
   imports: [
     BrowserModule,
