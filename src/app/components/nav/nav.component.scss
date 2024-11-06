@@ -1,0 +1,21 @@
+.agile-spacer {
+    flex: 1 1 auto;
+  }
+
+.agile-container {
+    height: 500px;
+}
+
+.agile-sidenav-content {
+    display: flexbox;
+    height: 88%;
+    padding: 2rem;
+}
+
+.sidenav-item {
+    flex-direction:  column;
+}
+
+.sidenav-item .mat-icon {
+    vertical-align: middle;
+}
