@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { SideBarMenuItemComponent } from '../side-bar-menu-item/side-bar-menu-item.component';
 
 @Component({
   selector: 'app-nav',

@@ -14,6 +14,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from 'src/app/app-routing.module';
+import { SideBarMenuItemComponent } from '../side-bar-menu-item/side-bar-menu-item.component';
 
 describe('NavComponent', () => {
   let component: NavComponent;
@@ -21,7 +22,7 @@ describe('NavComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [NavComponent],
+      declarations: [NavComponent, SideBarMenuItemComponent],
       imports:[MatToolbarModule,
         MatSidenavModule,
         MatIconModule,
@@ -45,7 +46,7 @@ describe('NavComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  it('should be', () => {
+  it('should be Luis´ Test', () => {
     expect(component.username).toBe("Luis's Test");
   });
 });
